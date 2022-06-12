@@ -3,10 +3,16 @@
     padding: 10%;
     display: flex;
     flex-direction:column;
+    gap: 20px;
 }
 .container_icons_home {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+}
+.container_icons_home img {
+    width: 150%;
+}
+.icons p {
+    text-align: center;
 }
 .desk {
     width: 70%;
@@ -15,10 +21,44 @@
 /******** 02_web  ********/
 .container_main {
     display: flex;
-    padding-top: 37px;
+    padding-top: 5px;
 }
 
-article {
-    display: flex;
-    padding-top: 10%;
+content {
+    padding: 2%;
 }
+.container_content_img {
+    display: flex;
+    justify-content: center;
+}
+content .tekst {
+    word-wrap:break-word;
+    margin: 0% 20% 0% 20%;
+}
+.container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.button_links{
+    display: flex;
+    gap: 55px;
+    text-align: center;
+    font-size: 1rem;
+    max-width: 59%;
+}
+
+.plant {
+    max-width: 20%;
+    float: right;
+    margin-right: 2%;
+    margin-bottom: -50px;
+    margin-top: -185px;
+}
+
+/* .button_1 img {
+    aspect-ratio: 50/ 62;
+}
+.button_2 img{
+    aspect-ratio: 63.6/ 58.6;
+} */

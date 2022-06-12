@@ -21,3 +21,4 @@ document.querySelector("body").addEventListener("mousedown", click); {
       process_pressure(click);
     }
   }
+
