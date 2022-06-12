@@ -6,10 +6,12 @@
   }
 body {
     background-color: #F0E6DE;
+    font-family: 'Courier New', Courier, monospace;
 }
 img {
     width: 100%;
     height: auto;
 }
-/****** main ******/
-
+main {
+    margin: 10px;
+}
