@@ -29,11 +29,14 @@ section {
 @media screen and (min-width: 1000px) {
     section {
         margin: 40px 40px 40px 150px;
+<<<<<<< HEAD
     }
 }
 @media screen and (min-width: 700px) {
     section {
         margin: 20px 20px 20px 131px;
+=======
+>>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
     }
 }
 section img {
@@ -61,3 +64,47 @@ h2 {
 p {
     line-height: 1.5rem;
 }
+<<<<<<< HEAD
+=======
+/***** icons *****/
+.icons img {
+    aspect-ratio: 2/1;
+}
+.icons p {
+    text-align: center;
+}
+.icons a:hover {
+    color: #b5b5b5;
+    opacity: 70%;
+}
+/***** active icon *****/
+#icon_zoom {
+    animation-name: icon_kf;
+    animation-duration: 0.3s;
+}
+@keyframes icon_kf {
+0% {
+    transform: scale(90%);
+}
+100% {
+    transform: scale(100%);
+}
+}
+.container_icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    padding: 30px 0px 0px 28px;
+    gap: 5px;
+}
+@media screen and (min-width: 800px) {
+    .icons {
+        width: 170%;
+    }
+    header .icons {
+        width: 20%;
+    }
+}
+/****** links *******/
+>>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
