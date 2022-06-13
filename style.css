@@ -1,168 +1,55 @@
 /***************************** home **************************/
-/* @media screen and (min-width: 900px) {
-.container_home  {
-    margin: 9% 10% 2% 10%;
-}  
-} */
-@media screen and (min-width: 800px) {
+main {
+	display: flex;
+	flex-direction: column;
+}
 .container_home {
-    display: flex;
-    flex-direction:column;
-<<<<<<< HEAD
-    justify-items: center;
-    gap: 0px;
-    margin: 3% 10% 2% 10%;
-=======
-    gap: 20px;
-    margin: 9%;
->>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
-}
-.container_icons_home {
-    display: flex;
-    margin-bottom: 9px;
-<<<<<<< HEAD
-    gap: 12px;
-    text-align: center;
-}
-.container_icons_home img {
-    max-width: 90%;
-}
-.icons {
-    justify-content: center;
-=======
-}
-.container_icons_home img {
-    width: 100%;
->>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
-}
-.icons p {
-    text-align: center;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	margin: 2%;
+    gap: 30px;
 }
 .desk {
-    width: 60%;
     align-self: center;
+    width: 90%;
 }
-}
-@media screen and (min-width: 700px) {
-    .container_home {
-        display: flex;
-        flex-direction:column;
-        gap: 10px;
-        margin: 3% 5% 2% 5%;
-    }
-    .container_icons_home {
-        display: flex;
-        margin-bottom: 9px;
-        gap: 12px;
-        text-align: center;
-    }
-    .container_icons_home img {
-        max-width: 80%;
-    }
-    .icons {
-        width: 50%;
-    }
-    .icons p {
-        text-align: center;
-    }
-    .desk {
-        width: 70%;
-        margin-top: 60px;
-        align-self: center;
-    }
-}
-@media screen and (max-width: 700px) {
-    .container_home {
-        display: flex;
-        flex-direction: column-reverse;
-        margin: 5%;
-        gap: 15px;
-    }
-    .container_icons_home {
-        margin-bottom: 0px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        gap: 19px;
-    }
-    .icons {
-        min-width: 30%;
-        margin-bottom: 10px;
-    }
-    .icons p {
-        text-align: center;
-    }
-}
-@media screen and (max-width: 430px) { 
-    .icons {
-        width: 40%;
-    }
-}
-/****************************** om *****************************/
-.container_content_img {
-    max-width: 40%;
-    align-self: center;
-}
-<<<<<<< HEAD
-/***************************** sites **************************/
-=======
-/******** om **********/
-.container_content_img {
-    max-width: 40%;
-    align-self: center;
-}
-/******** 02_web  ********/
->>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
-.container_main {
-    display: flex;
-    padding-top: 5px;
-}
-
-.container_content_img {
-    display: flex;
-    justify-content: center;
-}
-
-.container2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 55px;
-    text-align: justify;
-}
-<<<<<<< HEAD
-/*************************** link knapper ************************/
-.button_links{
-=======
-
-/* .button_links{
->>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
-    display: flex;
-    gap: 55px;
+.icons_home {
     text-align: center;
-    max-width: 100%;
-    height: auto;
-<<<<<<< HEAD
 }
-=======
-} */
->>>>>>> 70f55d7f513895e94a3d7f3858bbe72df3ea865a
-.plant {
-    max-width: 20%;
-    float: right;
-    margin-right: 2%;
-    margin-bottom: -50px;
-    margin-top: -185px;
+.container_icons_home {
+	margin: 10px 10px 0px 10px;
+	display: flex;	
+	position: relative;
+	align-items: center;
+}
+/***************************** nav **************************/
+.main_sites {
+    display: flex;
+    flex-direction: column;
+}
+.container_icons {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 5px;
+}
+.container_icons ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 5px;
 }
 
-.button_1 {
-    width: 100%
+.container_icons a img {
+    width: 85px;
 }
-.button_1 img {
-    aspect-ratio: 50/ 62;
+/***************************** section **************************/
+section {
+    display: flex;
 }
-.button_2 img{
-    aspect-ratio: 63.6/ 58.6;
-}
+/***************************** containers **************************/
+
+/*************************** link knapper ************************/
+
 /***************************** media query **************************/

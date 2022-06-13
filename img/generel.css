@@ -19,11 +19,19 @@ img {
     width: 100%;
     height: auto;
 }
-
+.main_site {
+    display: flex;
+}
 header {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     align-items: center;
+}
+.icons_luk {
+    width: 100%;
+}
+header img {
+    max-width: 20%;
 }
 article {
     word-wrap:break-word;
@@ -40,18 +48,4 @@ h2 {
 }
 p {
     line-height: 1.5rem;
-}
-ul {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    gap: 20px;
-}
-
-a img {
-    width: 120px;
-}
-
-a p{
-    text-align: center;
 }
